@@ -1,0 +1,10 @@
+{
+  "name": "Slot Booking Widget",
+  "version": "1.0",
+  "description": "Widget per la gestione delle prenotazioni di slot in Zoho CRM",
+  "author": "Your Name",
+  "type": "embedded",
+  "url": "index.html",
+  "icon": "icon.png",
+  "module": ["Campaigns", "Custom"]
+}

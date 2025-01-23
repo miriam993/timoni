@@ -1,0 +1,14 @@
+.fc-event {
+  cursor: pointer;
+  border: none;
+}
+
+.fc-daygrid-day-number {
+  cursor: pointer;
+  color: #3295F4;
+}
+
+.fc-col-header-cell-cushion {
+  text-decoration: none;
+  color: #313949;
+}
