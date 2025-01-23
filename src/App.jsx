@@ -339,7 +339,7 @@ function App() {
       {modalOpen && (
         <div className="modal" style={{ display: modalOpen ? 'block' : 'none' }}>
           <div className="modal-content">
-            <span className="close" onClick={closeModal}>&times;</span>
+          <span className="close" style={{ float: 'right' }} onClick={closeModal}>&times;</span>
             <h2>{selectedSlot && selectedSlot.id ? 'Modifica Prenotazione' : 'Prenota uno Slot'}</h2>
             <form id="booking-form" onSubmit={handleSubmit}>
               <div className="mb-3">
@@ -395,9 +395,11 @@ function App() {
                     }}
                   />
               </div>
+              <div className="d-flex justify-content-end">
               <button type="submit" className="btn btn-primary">
                 {selectedSlot && selectedSlot.id ? 'Aggiorna Slot' : 'Prenota Slot'}
               </button>
+              </div>
               {errorMessage && <div className="error-message">{errorMessage}</div>}
             </form>
           </div>
